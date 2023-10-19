@@ -9,6 +9,14 @@
 
 import ciklusok
 
-a: int = int(input("Kérj be egy számot:"))
-b: int = int(input("Kérj be még egy számot")) 
+a: int = int(input("a: "))
+
+b: int = int(input("b: ")) 
+"""A felhasznaló csak olyan b-t tudjon megadni, ami nagyobb mint az a"""
+while (a>=b):
+    print("B-nek nagyobbnak kell lennie  A-nál")
+    b:int = int(input)(f"Adj {a}-nál nagyobbat!")
+
+
+
 ciklusok.szamok(a,b)
